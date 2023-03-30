@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 1 déc. 2022, 01:31:01
+    Author     : Nouzhati
+*/
+h1 {
+    margin: 0 auto 0 auto;
+    color: black;
+    clear: both;  
+}
+
+#reco, #teammap, #twitter, #twitter-widget-0 {
+    width: 950px !important;
+    margin: 0 auto 0 auto;
+}
+
+/* Pour que NetBeans ne lÃ¨ve pas de warning */
+.twitter-timeline {}
+
+#teammap {
+    display:block;
+    height:633px;
+    background:url(images-79/nolark_team.jpg) no-repeat;
+    position:relative;
+    margin:2px auto 2px auto;
+    float: right;
+}
+
+#teammap li {
+    list-style-type:none;
+}
+
+#teammap li a {
+    background:transparent;
+    display:block;
+    height:0;
+    overflow:hidden;
+    position:absolute;
+    width: 165px;
+    padding-top: 245px;
+}
+
+#membre1 {right: 60px; top: 100px;}
+#membre2 {right: 220px; top: 80px;}
+#membre3 {right: 405px; top: 10px;}
+#membre4 {right: 585px; top: 50px;}
+#membre5 {right: 720px; top: 111px;}  
+
+#teammap li a:hover {border: 1px dashed black;}
+#teammap li a:hover.homme {background-color : rgba(0, 0, 255, 0.1);}
+#teammap li a:hover.femme  {background-color : rgba(255, 0, 0, 0.1);}
+
+
+
+

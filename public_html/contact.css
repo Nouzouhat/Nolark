@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 30 nov. 2022, 20:41:09
+    Author     : Nouzhati
+*/
+
+#formulaire {
+    text-align: left; 
+    
+}
+
+#formulaire form { 
+    clear: both;
+    margin: 0 5% auto 5%;
+}
+
+#formulaire form fieldset { 
+    float: left;  
+}
+
+#coordo {
+    text-align: right;
+    margin-right: 50px;
+    float: left; 
+    width: 40%;
+}
+
+#marques { 
+    text-align: left;
+} 
+
+
+
+
+
+

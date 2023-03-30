@@ -1,0 +1,200 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 7 nov. 2022, 19:57:49
+    Author     : danie
+*/
+
+/*body{
+    margin: 0;
+}*/
+h1{
+    color: red;
+    text-align: center; 
+}
+
+header, section, footer { 
+    border: black solid thin; 
+} 
+
+header, nav, section, footer {
+    margin: 0 auto 0 auto;
+    width: 950px;
+    text-align: center;
+}
+
+header {
+    
+    background: url('./ressources-tp01/banniere.png') no-repeat scroll center 10px;
+    height: 195px;
+}
+
+nav {
+    margin-top: 178px;
+    width: 100px;
+    float: left;
+}
+nav li { display: inline; /* Mode dâ€™affichage, ici en ligne */ 
+         font-size: 150%; /* Taille de la police */ 
+    } 
+nav li a { padding: 10px; /* Marge interne */ 
+           color: white; /* Couleur du texte */ 
+           background-color: black; /* Couleur de lâ€™arriÃ¨re-plan */ 
+           font-weight: bold; /* Mise en gras du texte */ 
+           text-decoration: none; /* Suppression du soulignement */ 
+} 
+nav li a:hover { 
+    color: black; 
+    background-color: white; 
+} 
+#principal { 
+    height: 350px; 
+} 
+#principal article { 
+    padding-top: 10px; 
+    width: 72%; 
+    height: 100%; 
+    text-align: justify; 
+    float: left; 
+} 
+#principal article img { 
+    float: left; 
+} 
+
+#principal aside { 
+    margin-top: 0; /* Le contenu devra Ãªtre au plus haut */ 
+    background: transparent url('./ressources-tp01/post-it-conseils.png') no-repeat 0 0; 
+    vertical-align: top; 
+    width: 27%; 
+    float: right; 
+    height: 100%;  
+} 
+
+#principal aside img:first-child{ 
+    margin-top: 100px; 
+} 
+
+#principal aside img { 
+    margin-left:auto; 
+    margin-right:auto; 
+    clear: both; /* Retour Ã  la ligne des images */ 
+} 
+
+#principal aside p { 
+    margin-top: 0; 
+} 
+
+#sectionthema {
+    margin: 50px auto 200px auto;
+    height: 150px;
+}
+
+#sectionthema article {
+    width: 33%;
+    height: 256px;
+}
+
+#sectionthema a {
+    font-family: 'Fuse';
+    font-size: xx-large;
+    font-weight:400;
+    margin-top: 0;
+    display:block;
+    width:100%;
+    height:100%;
+    color: black;
+    text-decoration: none;
+}
+
+#sectionthema #gauche:hover, #sectionthema #milieu:hover, #sectionthema #droite:hover {
+    border: black thin solid;
+    border-radius: 10px;
+    background-color: #ededed;
+}
+
+#sectionthema #gauche {
+    float:left;
+    width: 33%;
+    background: transparent url('./ressources-tp01/casqueroute.png') no-repeat center 10px;
+    border: white thin solid;
+}
+
+#sectionthema #milieu {
+    float: left;
+    width: 32%;
+    margin-left: 5px;
+    background: transparent url('./ressources-tp01/casquecross.png') no-repeat center 0;
+    border: white thin solid;
+}
+
+#sectionthema #droite {
+    float:right;
+    width: 33%;
+    background: transparent url('./ressources-tp01/casquepiste.png') no-repeat center 10px;
+    border: white thin solid;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 25px;
+    width: 100%;
+    background-color:#2d2d2d; /*Couleur de fond*/
+    color: #bbb;
+    text-align:center;/*texte centrÃ©*/
+}
+
+footer p{
+    margin-top: 3px;
+    color: #bbb;
+}
+
+footer a{
+    color: #bbb;
+}
+
+/*@font-face{ 
+    font-family: "Fuse";
+    src: url('FUSENORM.TTF') format("truetype");
+}*/
+
+#video article {
+    float: left;
+    width: 450px;
+    height: 270px; 
+}
+#video article img {
+    float: left;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+ header { background-image: none; width: auto; height: 160px;}
+nav { margin-top: 0;}
+nav ul { margin-left: 0; margin-top: 0; padding-left: 0;}
+nav li a { display: block; margin-top: 1px; height: 25px; padding: 1px;}
+#principal { width: auto; height: auto;}
+#principal article { width: auto; height: 100%; float: none; }
+#principal aside { display: none;} 
+#sectionthema { height: auto; margin: 0 auto 0; width: 100%; }
+#sectionthema article { height: auto;}
+#sectionthema #gauche, #sectionthema #milieu, #sectionthema #droite { background-image: none; width: 30%; float: left;}
+} 
+
+/* Tablette */ 
+@media only screen and (min-width: 321px) and (max-width: 800px) {
+    header { background-image: none; width: auto; margin: 0; height: 160px; }
+    nav { margin-top: 0; }
+    nav  ul { margin-left: 0; margin-top: 0; padding-left: 0; }
+    nav li a { display: block; margin-top: 1px; height: 25px; padding: 1px; }
+    #principal { height: auto; width: auto; }
+    #principal article { width: 60%;}
+    #principal aside { width: 238px; float: left; }
+    #sectionthema { height: auto; margin: 0 auto 0; width: 100%; clear: left; }
+    #sectionthema article { height: auto; }
+    #sectionthema #gauche, #sectionthema #milieu, #sectionthema #droite { background-image: none; width: 30%; float: left;} 
+} 
+
