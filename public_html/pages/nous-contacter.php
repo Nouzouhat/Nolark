@@ -13,7 +13,7 @@
     <body>
          <header>
            
-            <nav>
+            <nav style="display: inline; width: 100%;" >
                 <ul>
                     <li><a href="index.php">Accueil</a></li>
                   <?php
@@ -84,7 +84,7 @@
                     <td><input type="checkbox" id="agv" name="agv" value="agv"><label for="agv">agv</label><br></td>
                     <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <label for="vehicle1"> airoh</label><br> </td>
                     <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="vehicle1"> arai</label><br></td>
-                </tr> 
+                </tr>
                 
                 <tr> 
                  <td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="vehicle1"> Bell</label><br></td>

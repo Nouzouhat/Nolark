@@ -23,31 +23,35 @@ header, nav, section, footer {
     margin: 0 auto 0 auto;
     width: 950px;
     text-align: center;
+    
 }
 
 header {
     
     background: url('./ressources-tp01/banniere.png') no-repeat scroll center 10px;
-    height: 195px;
+    height: 195px;  
 }
 
-nav {
+header nav {
     margin-top: 178px;
-    width: 100px;
     float: left;
+    width: content-box;   
 }
-nav li { display: inline; /* Mode dâ€™affichage, ici en ligne */ 
+nav li { display: inline-block; /* Mode dâ€™affichage, ici en ligne */ 
          font-size: 150%; /* Taille de la police */ 
+         
     } 
 nav li a { padding: 10px; /* Marge interne */ 
            color: white; /* Couleur du texte */ 
            background-color: black; /* Couleur de lâ€™arriÃ¨re-plan */ 
            font-weight: bold; /* Mise en gras du texte */ 
            text-decoration: none; /* Suppression du soulignement */ 
+           
 } 
 nav li a:hover { 
     color: black; 
     background-color: white; 
+    
 } 
 #principal { 
     height: 350px; 
@@ -166,7 +170,7 @@ footer a{
     height: 270px; 
 }
 #video article img {
-    float: left;
+    float: left; 
 }
 
 
@@ -197,4 +201,6 @@ nav li a { display: block; margin-top: 1px; height: 25px; padding: 1px;}
     #sectionthema article { height: auto; }
     #sectionthema #gauche, #sectionthema #milieu, #sectionthema #droite { background-image: none; width: 30%; float: left;} 
 } 
+
+
 

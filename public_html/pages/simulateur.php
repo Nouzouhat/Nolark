@@ -13,9 +13,9 @@
     <body>
         <header>
            
-            <nav>
+            <nav style="display: inline; width: 100%;" >
                 <ul>
-                    <li><a href="index.php">Accueil</a></li>
+                    
                   <?php
             include('C:\wamp64\www\Nolark\public_html\includes\header.php');
            ?>   
@@ -23,7 +23,7 @@
             </nav>
 
         </header>
-        <h1 style="text-align: center; color:red; font-family:guardian egyptian; font-size: 30px;">Simulateur de calcul pour la force de vente :</h1>
+        <h1 style="text-align: center; color:red; font-family:guardian egyptian; font-size: 54px;">Simulateur de calcul pour la force de vente :</h1>
            
                 
           

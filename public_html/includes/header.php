@@ -1,8 +1,31 @@
 <?php
+// Sommes-nous sur l'index ?
+            $scriptName = filter_input(INPUT_SERVER, "SCRIPT_NAME");
+            $pageActuelle = substr($scriptName, strrpos($scriptName, "/") + 1);
+            if ($pageActuelle === "index.php") {
+                $dirIndex = "";
+                $dirPages = "";
+            } else {
+                $dirIndex = "";
+                $dirPages = "";
+            } 
+            // Construction d'un tableau associatif contenant les correspondances
+            // noms de pages / liens de la barre de navigation
+            $pages = array("Accueil" => $dirIndex . "index.php",
+                
+                
+                "Route" => $dirPages . "route.php",
+                "Cross" => $dirPages . "cross.php",
+                "Piste" => $dirPages . "piste.php",
+                "Enfants" => $dirPages . "enfants.php",
+                "La team" => $dirPages . "team.php",
+                "Nous contacter" => $dirPages . "nous-contacter.php",
+                "Simulateur " => $dirPages . "simulateur.php",
+                "Publique " => $dirPages . "publique.php",
+            );
+            // Affichage des liens de la barre de navigation 
+            foreach ($pages as $nom => $url) {
+                echo "\n", '<li><a href="', $url, '">', $nom, '</a></li>';
+            }
 
-$pages = array("route.php", "cross.php", "piste.php", "enfants.php","nous-contacter.php","team.php","simulateur.php","chauffeur.php","publique.php");
-$noms = array('Route', 'Cross', 'Piste', 'Enfants', 'Nous contacter','Team','Simulateur',"Chauffeur","Publique");
-$nbLiens = count($pages); 
-for ($i=0; $i < $nbLiens; $i++) {
-echo '<li style="margin:2px;"><a href="../pages/', $pages[$i], '">', $noms[$i], '</a></li>';
-}
+?> 

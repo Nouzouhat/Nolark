@@ -9,12 +9,12 @@
         <link rel="stylesheet" href="../team.css" />
         
     </head>
-    <body>
+    <body> 
         <header>
            
-            <nav>
+            <nav style="display: inline; width: 100%;" >
                 <ul>
-                    <li><a href="index.php">Accueil</a></li>
+                    
                   <?php
             include('C:\wamp64\www\Nolark\public_html\includes\header.php');
            ?>   

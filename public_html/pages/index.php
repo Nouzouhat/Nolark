@@ -1,18 +1,22 @@
 <!doctype html>
 <html lang="fr-FR">
-    <head>
+    <head> 
         <title>Casques Nolark : Casques routes</title>
         <meta charset="UTF-8" />
         <meta name="author" content="Prénom Nom" />
         <meta name="description" content="Découvrez des casques moto dépassant même les exigences des tests de sécurité. Tous les casques Nolark au meilleur prix et avec en prime la livraison gratuite !" />
         <link rel="stylesheet" href="../styles.css" /> 
         <link rel="stylesheet" href="../contact.css" />  
+        
+        
+        
     </head>
     <body>
         <header>
-            <nav>
+            <nav style="display: inline; width: 100%;" >
                 <ul>
-                    <li><a href="index.php">Accueil</a></li>
+                    
+                    
                   <?php
             include('C:\wamp64\www\Nolark\public_html\includes\header.php');
            ?>   
@@ -22,7 +26,7 @@
         </header>
 
    
-        <section id="principal">
+        <section id="principal"> 
             <article>
                 <img src="../ressources-tp01/post-it.png" alt="Post-It : Penser à rentrer en vie" />
                 <p>
@@ -39,11 +43,10 @@
                 
                 <p>
                    Une question ? Un conseil ? Nos conseillers sont là pour vous aiguiller afin de trouver le modèle qui correspond à vos besoins. 
+                   Nolark n'est pas seulement un magasin de casques, c'est avant tout une équipe de passionnés qui sélectionnent pour vous les meilleurs casques moto afin de répondre au mieux à vos attentes.
                 </p>
                 
-                <p> 
-                    Nolark n'est pas seulement un magasin de casques, c'est avant tout une équipe de passionnés qui sélectionnent pour vous les meilleurs casques moto afin de répondre au mieux à vos attentes.
-                </p>
+          
             </article>  
             
             <aside>
@@ -56,16 +59,16 @@
         </section>
         
         <section id="sectionthema">
-            <h1>Catégories les plus populaires</h1>
-            <article id="gauche"><a href="route.html">Route</a></article>
-            <article id="milieu"><a href="cross.html">Cross</a></article>
-            <article id="droite"><a href="route.html">Piste</a></article>
+            <h1 style="font-size: 38px;">Catégories les plus populaires</h1>
+            <article id="gauche"><a href="route.php">Route</a></article>
+            <article id="milieu"><a href="cross.php">Cross</a></article>
+            <article id="droite"><a href="route.php">Piste</a></article>
         </section>
         
         <footer>
             <?php
-            include('C:\wamp64\www\Nolark\public_html\includes\footer.php');
-            ?>
+           include('C:\wamp64\www\Nolark\public_html\includes\footer.php');
+            ?> 
         </footer>
     </body>
     

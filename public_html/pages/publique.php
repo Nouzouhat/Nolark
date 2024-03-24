@@ -15,9 +15,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
     <body>
         <header>
            
-            <nav>
+           <nav style="display: inline; width: 100%;" >
                 <ul>
-                    <li><a href="index.php">Accueil</a></li>
+                    
                   <?php
             include('C:\wamp64\www\Nolark\public_html\includes\header.php');
            ?>   

@@ -2,7 +2,7 @@ window.addEventListener("load", function() {
     
     window.document.querySelector("#btn_Envoyer").addEventListener("click", function() {
 //Déclaration des constantes
-// (déclenche une erreur dans Netbeans, ne pas en tenir compte !)
+
 const fixe = 1100.0; 
 
 //Déclaration des variables
